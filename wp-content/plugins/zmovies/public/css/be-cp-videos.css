@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+.column-id{
+	width: 6%;
+}
+
+.column-view{
+	width: 8%;
+}
+
+.column-category{
+	width: 12%;
+}

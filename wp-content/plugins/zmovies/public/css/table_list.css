@@ -1,0 +1,79 @@
+@CHARSET "ISO-8859-1";
+
+.column-id{
+	width: 6%;
+}
+
+.column-status{
+	width: 6%;
+}
+
+.column-date_modify{
+	width: 10%;
+}
+
+.column-created_by{
+	width: 12%;
+}
+.column-ordering{
+	width: 12%;
+}
+
+
+.zendvn-form-table{
+	border: solid 1px #ccc;
+	background-color: #fff;
+}
+
+.zendvn-form-table th, td{
+	padding-left: 10px;
+}
+
+/*=========================================*/
+.column-city_name{
+	width: 10%;	
+}
+
+/*=========================================*/
+.column-district_name{
+	width: 10%;	
+}
+/*=========================================*/
+.column-view{
+	width: 6%;	
+}
+
+.column-category{
+	width: 15%;	
+}
+
+.column-max{
+	width: 10%;	
+}
+
+.column-min{
+	width: 10%;	
+}
+
+.column-slug{
+	width: 15% !important;
+}
+
+.column-money{
+	width: 10%;	
+}
+
+.column-created{
+	width: 10%;	
+}
+
+.column-price{
+	width: 10%;	
+}
+
+.column-price2{
+	width: 12%;	
+}
+/*=========================================*/
+
+

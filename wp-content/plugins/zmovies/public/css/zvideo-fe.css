@@ -1,0 +1,552 @@
+#logo{
+	margin-top: 5px;
+}
+
+#main{
+	margin-left: 5px;
+}
+.clr{
+	clear: both;
+}
+#primary{
+	padding-top: 15px;
+	padding-right: 0px; 
+}
+
+#secondary{
+	padding-top: 15px;
+}
+
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+	padding-right: 15px; 
+    padding-left: 0px;	
+}
+
+#secondary.col-sm-12{
+	padding-right: 5px; 
+}
+
+.zbanner{
+	height: 150px;
+	width: 100%;
+    background: url(../images/header-bg.jpg) center top;
+    position: relative;
+}
+
+.zmenu{
+	background-color: #3d3d3d;
+	border-bottom: 1px solid #9f9f9f;
+}
+
+.zmovies{
+	font-family: tahoma;
+}
+.zmovies .thumbnail{
+	border-radius: 0px;
+	padding: 2px;
+	border: solid 1px #464646;
+    background: #1b1414;
+	text-align: center;
+	position: relative;
+}
+
+.zmovies .thumbnail h3.movie-title{
+	font-size: 12px;	
+	margin: 0px 3px;
+	color: #e6e900;
+    font-weight: bold;
+    padding: 10px 2px 5px 2px;
+	text-align: center;
+	position: relative;
+	white-space: nowrap;
+	overflow-x: hidden;
+}
+
+
+
+.zmovies a{
+	
+    position: relative;
+	color: #e6e900;
+}
+
+.zmovies .thumbnail a{
+	display: block;
+}
+
+
+.zmovies .thumbnail .series{
+	position: absolute;
+    left: 5px;
+    bottom: 50px;
+	background: #d02f2b;
+	border-radius: 3px;
+	padding: 3px 5px;
+	font-size: 11px;
+	color: white;
+	font-weight: normal;
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.zmovies .thumbnail .views{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+	background: #000;
+	padding: 2px 4px;
+	font-size: 11px;
+	color: white;
+	font-weight: normal;
+	opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.zmovies .thumbnail .over_movie{
+	width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+	z-index: 97;
+}
+
+.zmovies .thumbnail .over_movie:hover{
+	background: url(../images/overlay_rich.png) center center no-repeat;
+}
+
+#big-picture{
+	border-bottom: 1px solid #3A3A3A;
+	position: relative;
+}
+
+#big-picture .thumbnail{
+	padding: 0px;
+    border: 0px;
+    margin: 0px;
+	background-color: #1e1e1e;
+}
+
+#big-picture .thumbnail .over_movie{
+	width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+	z-index: 10;
+}
+
+#big-picture .thumbnail .over_movie:hover{
+	background: url(../images/overlay_hot.png) center center no-repeat;
+}
+
+
+#big-picture .small-picture{
+	position: absolute;    
+    bottom: 10%;
+    left: 15px;
+    z-index: 16;
+	padding: 10px 10px 10px 10px;
+	background: #000;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+	border-radius: 5px;
+}
+
+.zmovie-title{
+	color: #e6e900;
+    font-size: 24px;
+    margin: 10px 0px 10px 20px;
+	
+}
+
+#zmovie-info{
+	margin-right: 15px;
+	margin-bottom: 10px;
+	background: #f9f9f9;
+	padding: 10px;
+}
+
+#zmovie-info .row{
+	margin-bottom: 10px;
+}
+
+#zmovie-info .summary{
+	background: #1e2326;
+}
+
+#zmovie-info .summary .title{
+	text-align: center;
+}
+
+#zmovie-info .summary h2{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 0px auto;
+    padding: 5px;
+	line-height: 23px;
+	font-weight: bold;	
+	background: #500E06;
+}
+
+#zmovie-info .summary h3{
+    font-size: 14px;
+    color: #e6e900;
+    text-align: center;
+    display: inline-block;
+    margin: 0px auto;
+    padding: 5px;
+	line-height: 23px;
+	font-weight: bold;	
+}
+
+#zmovie-info .summary .info{
+	color: #b8b8b8;
+	padding-left: 25px;
+	font-family: tahoma;
+    font-size: 13px;
+}
+
+#zmovie-info .summary .info li{
+	line-height: 23px;
+}
+
+#zmovie-info  .zmovie-btn-play{
+	text-align: center;
+    padding-right: 0px;
+    padding-top: 15px;
+}
+
+#zmovie-info .content{
+	margin: 15px 15px 10px 15px;
+    text-align: justify;
+	border-top: solid 2px #ccc;
+    padding: 0px;
+	color: #323232;
+	padding-top: 15px;
+}
+
+#zmovie-info .tags{
+	margin: 10px 15px;
+	font-style: italic;
+	color: #323232;
+}
+
+#zmovie-info .tags a{
+	color: #4b9f18;
+}
+
+#zmovie-info .tags span{
+	
+}
+#zmovie-view{
+	padding-bottom: 15px;
+	color: #323232;
+}
+
+#zmovie-view .zmovie-title{
+	margin: 0px 0px 10px 0px;
+}
+#zmovie-view .player{
+	padding-bottom: 15px;
+	position: relative;
+}
+
+#zmovie-view .movie-control{
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#zmovie-view .movie-control a{
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.light-off-active{
+	background: #000;
+    width: 100%;
+    height: 100%;
+	position: fixed;
+    z-index: 130;
+	opacity: 0.95;
+    filter: alpha(opacity=95);
+}
+
+.light-off-inactive{
+	color: white;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+	padding: 3px 5px;
+    cursor: pointer;
+	border: 1px solid #ccc;
+	color: #e6e900;
+	font-size: 13px;
+    font-weight: bold;
+}
+
+.zpaging{
+	margin: 0px 10px 20px 10px;
+	text-align: center;
+}
+
+.zpaging a, .zpaging span{
+    padding: 3px 7px;
+    border: 1px solid #ccc;
+	background: #3498db;
+	color: #fff;
+    text-decoration: none;	
+	font-size: 12px;
+}
+
+.zpaging .current{
+	color: #000;
+    background: #fff;
+}
+
+.movie-servers{
+	background: #eef8ff;
+	margin-right: 10px;
+	font-size: 13px;
+    font-family: tahoma;
+}
+
+.note_of_movie{
+	    margin: 15px 10px 0px 0px;
+    background: #fff;
+    padding: 15px;
+}
+
+.movie-servers li span{
+	font-weight: bold;
+    font-size: 12px;
+}
+
+.movie-servers ul{
+	padding: 10px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+.movie-servers ul li{
+	line-height: 25px;
+}
+
+.movie-servers .fa{
+	color: #000;
+	margin-right: 3px;
+}
+
+.movie-servers li a{
+	color: #1e2326;	
+    padding: 2px;
+    margin-right: 3px;
+}
+
+.movie-servers .movie-view{
+	background: #3498db;
+    color: #fff;
+}
+
+.popover{
+	width: 280px;	
+	font-size: 12px;
+	
+}
+
+.popover .popover-title{	
+	color: #323232;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.popover .popover-content{
+	font-size: 12px;
+	color: #323232;
+}
+
+.popover .popover-content ul{
+	margin: 0px 3px;
+	padding: 0px 0px 0px 4px;
+	
+}
+
+.popover .popover-content ul li{
+	line-height: 16px;
+	color: #323232;
+}
+
+.popover .popover-content ul li span{
+	font-weight: bold;
+}
+
+.zmovies-facebook-comment{
+	
+}
+
+.zmovies-facebook-comment .wpdevar_comment_1{
+	background: #fff;
+}
+
+#zmovie_search_bar{
+	width: 300px;
+	display: none;
+}
+
+#zmovie_search_bar .form-group{
+	padding: 0px;
+	margin: 7px 0px 0px 0px;
+}
+
+#zmovie_search_bar .show-results{
+	/*height: 150px;*/
+    position: absolute;
+    background: #3d3d3d;
+	display: none;
+}
+#zmovie_search_bar .show-results ul{
+	margin: 10px 10px;
+    padding: 0px;
+	list-style-type: none;
+}
+
+#zmovie_search_bar .show-results ul li{
+	line-height: 49px;
+	margin-bottom: 5px;
+    padding: 3px 0px;
+	border: solid 1px #464646;
+}
+
+#zmovie_search_bar .show-results ul li a{
+	display: block;
+	text-decoration: none;
+}
+
+#zmovie_search_bar .show-results ul li:hover{
+	background: #1e2326;
+	
+}
+
+#zmovie_search_bar .zmovie_search_input{
+	
+	background: #2f2f2f;
+    border-radius: 0px;
+    border: 1px solid #707070;
+    color: #e3e3e3;
+	height: 30px;
+	line-height: 30px;
+	
+}
+
+#zmovie_search_bar #searchsubmit{
+	
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	padding: 0px;
+   
+}
+
+#zmovie_search_bar .show-results .img{
+	width: 60px;   
+    text-align: center;
+	vertical-align: top;
+	float: left;
+}
+
+#zmovie_search_bar .show-results .content{
+	
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+	padding-top: 10px;
+}
+#zmovie_search_bar .show-results .content div{
+    line-height: 20px;
+}
+
+#zmovie_search_bar .show-results .content  .years{
+	font-weight: normal;
+    color: #ccc;
+}
+
+#zmovie_search_bar .show-results .search-keywords{
+	margin: 5px 10px 3px 10px;
+    padding: 3px;
+    color: #ccc;
+}
+
+#zmovie_search_bar .show-results .search-keywords .keywords{
+	color: #e6e900;
+}
+
+.zmovie-table{
+    font-size: 12px;
+    font-family: tahoma;
+    margin: 15px 15px 10px 15px;
+	color: #323232;
+	background: #fff;
+}
+
+.zmovie-table table{
+	margin: 0px;	
+}
+
+.zmovie-table a{
+	color: #181818;
+	text-decoration: none;
+}
+
+.zmovie-table a:hover{
+	color: red;	
+}
+
+.zmovie-table tbody tr td{
+	padding: 5px;
+}
+
+.zmovie-table thead tr th{
+	border-bottom-width: 1px;
+	text-align: center;
+	background: #80ccff;
+	padding: 5px;
+}
+
+.movie-lastes-update{
+	background-color: #e97d07;
+    margin: 20px 10px 0px 20px;
+	padding: 10px;
+    text-align: left;
+	font-size: 13px;
+	font-family: arial;
+	border-radius: 6px;
+}
+
+.movie-lastes-update .h{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.movie-lastes-update .c{
+	color: #323232;
+}
+
+.movie-lastes-update .c a{
+	color: #323232;
+}
+
+.movie-lastes-update .c .title{
+	font-weight: bold;
+}
+
+.zmovies-tab{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.zmovies-tab a{
+	margin-right: 20px;
+}
